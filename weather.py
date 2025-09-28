@@ -1,13 +1,13 @@
 from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP()
+mcp = FastMCP("weather")
 
 mcp.tool()
 def get_weather(location: str) -> str:
 
     """    
     Args:
-        lcation (str): _description_
+        location (str): _description_
 
     Returns:
         str: _description_
